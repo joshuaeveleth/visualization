@@ -41,43 +41,9 @@ Where the sample file `Alexa_Halford_062105_2.3df.00720.cdf` is included in this
 
 The analysis traces a single fieldline using the point farthest from all the fieldlines stored in a previous invocation (where `fieldlines.csv` was used as the -save_flines argument).
 
-The above command should spit out the following, after opening temp-plot.html in the browser.
+The above command should open temp-plot.html in the browser, which should look something like this:
 
-```console
-setting step max
-
-farthest point iteration: 0
-Voronoi function took 6.767 s
-get_separators function took 1.945 s
-get_circumradii_2 function took 1.321 s
-get_circumradii_2 function took 0.103 s
-get_circumradii_2 function took 1.168 s
-get_circumradii_2 function took 1.305 s
-get_circumradii_2 function took 0.188 s
-get_circumradii_2 function took 0.974 s
-get_all_circumradii function took 5.500 s
-circumcenter max: (0.17078885606215913, 5.8441164821190839, -3.3336094684650268) 52.1541878661
-get_null_points function took 2.010 s
-edge_map function took 0.384 s
-edge_map function took 0.028 s
-edge_map function took 0.598 s
-edge_map function took 0.617 s
-edge_map function took 0.057 s
-edge_map function took 0.317 s
-len(edge_trace) 9
-len(edge_trace) 9
-len(edge_trace) 9
-len(separator_traces) 3
-fieldlines 4
-separators 14
-isosurface 1
-slices 3
-```
-
-The output should look something like this:
-
-Inline-style: 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![screen shot](https://github.com/ccmc/visualization/raw/master/screenshot.png "screenshot")
 
 
 ```console
